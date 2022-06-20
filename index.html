@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body class="text-light ">
+    <div class="container text-primary w-50 ">
+        <h1 class="text-center shadow py-4">Bodget Js</h1>
+
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <h5>Produit</h5>
+            </div>
+            <div class="col-md-9">
+                <input type="text" placeholder="Entrer le nom du produit" class="form-control" id="name">
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-3">
+                <h5>Price HT</h5>
+            </div>
+            <div class="col-md-9">
+                <input type="number" placeholder="Prix" class="form-control" id="Price">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-3">
+                <h5>Quantité</h5>
+            </div>
+            <div class="col-md-9">
+                <input type="number" placeholder="Quantité" class="form-control " id="Qua">
+            </div>
+        </div>
+        <button type="button" class="my-5 btn w-100" style="background-color: rgba(255, 0, 0, 0.459);"><b>Ajouter</b></button>
+        <table class="table table-bordered table-light border-dark">
+            <thead>
+                <tr>
+                    <th id="pro">Produit</th>
+                    <th>Prix</th>
+                    <th>Quantité</th>
+                    <th>TTC</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+    <script src="code.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
